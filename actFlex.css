@@ -4,30 +4,39 @@
 .menu-flex-container {
     display: flex;
     flex-flow: column;
+ 
 }
 .content-flex-container {
-    display: flex;
-    flex-flow: row wrap;
+    flex-grow: 1;
 
 }
+.all-content {
+    display: flex;
+    flex-flow: row wrap;
+}
 .bg-head {
-    background-color:pink;
+    background-color:lightgray;
 }
 .bg-menu {
-    background-color: lightpink;
+    background-color: whitesmoke;
 }
 .bg-content {
-    background-color: papayawhip;
+    background-color: whitesmoke;
 }
 .flex-container>div {
-    background-color: plum;
+    background-color: gray;
     margin: 15px;
     padding: 20px;
     font-size: 20px;
 }
 .menu-flex-container>div {
-    background-color: orchid;
-    margin: 15px;
-    padding: 20px;
+    background-color: gray;
+    margin: 20px;
+    padding: 10px;
     font-size: 20px;
+  
+
+}
+div {
+    border: 1px solid black;
 }
