@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+}
+.menu-flex-container {
+    display: flex;
+    flex-flow: column;
+}
+.content-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.bg-head {
+    background-color:pink;
+}
+.bg-menu {
+    background-color: lightpink;
+}
+.bg-content {
+    background-color: papayawhip;
+}
+.flex-container>div {
+    background-color: plum;
+    margin: 15px;
+    padding: 20px;
+    font-size: 20px;
+}
+.menu-flex-container>div {
+    background-color: orchid;
+    margin: 15px;
+    padding: 20px;
+    font-size: 20px;
+}
