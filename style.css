@@ -1,7 +1,6 @@
 .flex-container {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+    flex-flow: row no-wrap;
 }
 
 .inline-flex-container {
@@ -22,6 +21,7 @@
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+    width: 600px;
 }
 .inline-flex-container>div {
     background-color: lightgray;
@@ -34,9 +34,9 @@
 }
 .d2 {
     order: 3;
-    flex-grow: 2;
+    
 }
 .d3 {
     order: 2;
-    flex-grow: 1;
+    flex-shrink: 4;
 }
