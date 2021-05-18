@@ -1,9 +1,11 @@
 .flex-container {
     display: flex;
+    direction: row;
 }
 
 .inline-flex-container {
     display: inline-flex;
+    direction: row;
 }
 
 .bg-red {
