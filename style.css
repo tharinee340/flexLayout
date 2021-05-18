@@ -1,11 +1,11 @@
 .flex-container {
     display: flex;
-    direction: row;
+    flex-direction: row-reverse;
 }
 
 .inline-flex-container {
     display: inline-flex;
-    direction: row;
+    flex-direction: row-reverse;
 }
 
 .bg-red {
