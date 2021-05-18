@@ -19,3 +19,9 @@
     padding: 20px;
     font-size: 30px;
 }
+.inline-flex-container>div {
+    background-color: lightgray;
+    margin: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
